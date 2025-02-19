@@ -1,0 +1,12 @@
+.git/
+.github/
+node_modules/
+src/
+test/
+.eslintrc.json
+.gitignore
+eslint.config.mjs
+package-lock.json
+tsconfig.json
+vitest.config.js
+yarn.lock

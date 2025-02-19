@@ -1,0 +1,41 @@
+{
+  "name": "insert-email",
+  "description": "A JavaScript utility for updating anchor (`<a>`) elements with a valid `mailto:` email link.",
+  "type": "module",
+  "author": "Peter Walter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/peter-walter/insert-email#readme",
+  "bugs": {
+    "url": "https://github.com/peter-walter/insert-email/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-walter/insert-email.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "lint": "eslint src test --ext .ts",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
